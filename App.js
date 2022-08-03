@@ -24,13 +24,13 @@ export default class App extends React.Component {
   render() {
     return (
       <View style={styles.container}>
-        <Header
+        {/* <Header
           backgroundColor={'#9c8210'}
           centerComponent={{
             text: 'Monkey Chunky',
             style: { color: '#fff', fontSize: 20 },
           }}
-        />
+        /> */}
 
         <Image
           style={styles.imageIcon}
